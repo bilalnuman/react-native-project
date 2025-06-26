@@ -1,3 +1,40 @@
 {
-  "extends": "@react-native/typescript-config"
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+     "types": ["./env.d.ts"],
+    "baseUrl": "./src",
+    "jsx": "react-native",
+    "paths": {
+      "@types/*": [
+        "types/*"
+      ],
+      "@navigation/*": [
+        "navigation/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@store/*": [
+        "store/*"
+      ],
+      "@widgets/*": [
+        "widgets/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ]
+    }
+  }
 }
