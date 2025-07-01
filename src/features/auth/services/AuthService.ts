@@ -1,5 +1,6 @@
 
-import apiClient from '../../../lib/axios';
+
+import apiClient from '@lib/axios';
 import { URLS } from '@utils/constants';
 
 export const login = (payload: any) =>
